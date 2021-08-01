@@ -161,7 +161,10 @@ void goBackwards(int velocidad) {
 
 //Función para detener el movimiento
 void stopMotion() {
-  digitalWrite(EN, LOW);
+  digitalWrite(DERF, LOW);
+  digitalWrite(IZQF, LOW);
+  digitalWrite(DERB, LOW);
+  digitalWrite(IZQB, LOW);
   backwards = false;
   forward = false;
   rotatingLeft = false;
