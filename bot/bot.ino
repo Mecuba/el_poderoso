@@ -72,22 +72,22 @@ void loop() {
         //Adelante
         case 'a':
         Serial.println('a');
-            goForward(128);
+            goForward(200);
           break; 
         //Atras
         case 'b':
         Serial.println('b');
-            goBackwards(128);        
+            goBackwards(200);        
           break;
         //Derecha
         case 'd':
         Serial.println('d');
-            StartRightRotation(128);
+            StartRightRotation(200);
           break;
         //Izquierda
         case 'i':
         Serial.println('i');
-            StartLeftRotation(128);
+            StartLeftRotation(200);
           break;
         default:
             //No se hace nada
